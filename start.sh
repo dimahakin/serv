@@ -1,0 +1,1 @@
+java -server -Xincgc -Xmx412M -Dfile.encoding=UTF-8 -XX:UseSSE=4 -XX:+UseLargePages -XX:+OptimizeStringConcat -XX:+OptimizeFill -XX:+AggressiveOpts -jar core.jar
